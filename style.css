@@ -1,0 +1,333 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ body {
+        background-color: #273248;
+    }
+
+    html{
+    	scroll-behavior: smooth;
+    }
+
+nav{
+	background-color: #273248;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+	width: 100%;
+}
+
+nav a{
+	text-decoration: none;
+	color: #FEEAD3;
+	font-family: Segoe UI semibold;
+	font-size: 20px;
+	padding: 0px 50px;
+}
+
+nav a:hover{
+	color: white;
+}
+
+nav img {
+
+	height: 60px;
+	width: auto;
+}
+
+img	{
+	height: 100%;
+	width: auto;
+}
+
+video {
+
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	filter: brightness(0.5);
+
+}
+
+h1{
+	color: #FEEAD3;
+	font-size: calc(6rem + 3vw);
+	padding: 50px 0px;
+	font-family: Segoe UI Black;
+	margin: 0 auto;
+}
+
+.boton{
+	color: #FEEAD3;
+	font-size: 20px;
+	padding: 10px 50px;
+	font-family: Segoe UI;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FEEAD3;
+	border-radius: 50px;
+}
+
+
+#encabezado{
+		position: relative;
+}
+
+#hero{
+	position: absolute;
+	top: 25%;
+ 	left: 50%;
+    transform: translate(-50%, -25%);
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	display: inline-grid;
+
+
+
+}
+
+p{
+	font-size: 25px;
+	font-family: Segoe UI, italic;
+ 	color: #FEEAD3;
+ 	line-height: 35px;
+ 	padding: 0px 30px 60px 30px;
+ 	text-align: center;
+
+ }
+
+ .inp{
+ 	display: flex;
+ 	font-size: 20px;
+ 	text-align: left;
+ 	padding: 0;
+ 	line-height: 35px;
+ 	font-family: Segoe UI, italic;
+ 	color: #FEEAD3;
+
+ }
+
+ input{
+ 		width: 100%;
+ 		height: 30px;
+ 		border-radius: 10px;
+ 		border: none;
+ 		
+ }
+
+#contact{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.map{
+	background-color: #FEEAD3;
+	width: 100%;
+}
+
+.form{
+	width: 100%;
+}
+
+ .Contacto{
+ 	margin-right: 50px;
+ 	text-align: center;
+ }
+
+ .Inicio{
+ 	margin-left: 50px;
+ 	text-align: center;
+ }
+
+#un-paso{
+	display: inline-grid;
+}
+
+ #un-paso h3{
+ 	color: #FEEAD3;
+ 	font-size: 25px;
+ 	font-family: Segoe UI semibold;
+ 	text-align: center;
+ 	padding: 50px 50px;
+
+
+ }
+
+  .tex h3{
+ 	color: #FEEAD3;
+ 	font-size: 35px;
+ 	font-family: Segoe UI semibold;
+ 	text-align: center;
+ 	padding: 0px 50px 50px 50px;
+
+  }
+
+
+
+ #un-paso p{
+ 	color: #FEEAD3;
+ 	font-size: 20px;
+ 	font-family: Segoe UI;
+ 	text-align: center;
+ 	padding: 50px 50px;
+ 	line-height: 30px;
+
+ }
+
+ footer p{
+ 	font-size: 16px;
+ 	text-align: center;
+ 	padding: 20px 0px;
+ }
+
+#footer{
+	padding: 100px 0 0 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.info{
+	width: 30vw;
+
+}
+
+.linea{
+	display: flex;
+	justify-content: space-around;
+}
+
+#titol{
+	position: relative;
+	height: 331px;
+	width: 100%;
+	margin: 0 auto;
+		overflow: hidden;
+}
+
+.titol{
+	position: absolute;
+	top: 50%;
+ 	left: 50%;
+    transform: translate(-50%, -25%);
+    color: #FEEAD3;
+ 	font-size: 50px;
+ 	font-family: Segoe UI semibold;
+ 	text-align: center;
+ 	padding: 0px 50px;
+
+}
+
+#act{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tex{
+	margin: 0 auto;
+	padding: 50px 50px;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-color: #273248;
+    }
+    video {
+    width: auto;
+	height: 500px;
+	filter: brightness(0.5);
+	margin: 0 auto;
+
+}
+
+iframe{
+	width: 100%;
+	height: 300px;
+}
+.inp p{
+ 	font-size: 15px;
+ }
+
+#contact{
+	display: inline-grid;
+}
+
+#titol img{
+	height: 100%;
+	width: auto;
+}
+
+.titol{
+	font-size: 40px;
+}
+
+#act{
+	display: inline-grid;
+}
+
+#footer{
+	display: inline-grid;
+	width: 100%;
+}
+
+img	{
+	height: 100%;
+	width: 100%;
+}
+
+.info{
+	padding: 80px 0;
+	width: 100%;
+	display: inline-grid;
+
+}
+
+footer img{
+	margin: 0 auto;
+}
+
+.linea{
+	margin: 0 auto;
+	display: inline-grid;
+
+	text-align: center;
+}
+
+h1{
+	font-size: calc(4rem + 2vw);
+}
+
+
+p{
+	font-size: 20px;
+}
+	nav{
+	background-color: #273248;
+	display: inline-grid;
+	padding: 20px 0px;
+	height: auto;
+	width: 100%;
+}
+
+ .Contacto{
+ 	margin-right: 0px;
+ }
+
+ .Inicio{
+ 	margin-left: 0px;
+ }
+
+nav a {
+	padding: 20px 0px;
+}
+
+#
+
+}
